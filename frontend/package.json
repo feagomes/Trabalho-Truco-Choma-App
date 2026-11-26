@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host localhost --port 5173 --strictPort",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "test": "node --experimental-strip-types --test"
   },
   "dependencies": {
     "react": "^19.3.1",
